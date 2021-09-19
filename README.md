@@ -13,49 +13,49 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ![FullTable](Images/FullTable.png)
 
- A) Created a Conditional Formatting to fill each cell in the State column with a different color for Successful, failed, canceled, or live.
- B) Created a new column O called "PercentFunded". The calculation I used is (pledged / goal)* 100. I have applied three scale color option by using Conditional Formatting > Graded Color Scales. I then applied color scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.
- C) Created a new column P called Average Donation and used the formula pledged / backers_count.
- D) Created two new column called Category and sub-Category using the formula function LEFT for the column category and then used RIGHT and FIND function for the sub-Category column.
+* Created a Conditional Formatting to fill each cell in the State column with a different color for Successful, failed, canceled, or live.
+* Created a new column O called "PercentFunded". The calculation I used is (pledged / goal)* 100. I have applied three scale color option by using Conditional Formatting > Graded Color Scales. I then applied color scale should start at 0 and be a dark shade of red, transitioning to green at 100, and blue at 200.
+* Created a new column P called Average Donation and used the formula pledged / backers_count.
+* Created two new column called Category and sub-Category using the formula function LEFT for the column category and then used RIGHT and FIND function for the sub-Category column.
 
 # Task#2:
 
 ![CategoryPivot.png](Images/CategoryPivot.png)
 
- A) Created a new sheet with a pivot table that analyze the initial worksheet to count how many campaigns were successful, failed, canceled, or live per category.
- B) Created a stacked column pivot chart that can be filtered by country based on the pivot table I created.
+ * Created a new sheet with a pivot table that analyze the initial worksheet to count how many campaigns were successful, failed, canceled, or live per category.
+ * Created a stacked column pivot chart that can be filtered by country based on the pivot table I created.
 
 # Task#3:
 
 ![subcategoryPivot](Images/subcategoryPivot.png)
 
- A) Created a new sheet with a pivot table that's analysis of the initial sheet to count how many campaigns were successful, failed, canceled, or live per sub category.
- B) Created a stacked column pivot chart that can be filtered by country and parent-category based on the table I created.
+ * Created a new sheet with a pivot table that's analysis of the initial sheet to count how many campaigns were successful, failed, canceled, or live per sub category.
+ * Created a stacked column pivot chart that can be filtered by country and parent-category based on the table I created.
 
 # Task#4:
 
 ![DateCreatedConversionPivot](Images/DateCreatedConversionPivot.png)
 
- A) Created a new column named deadline, launch_at, and Date Ended Conversion columns use Unix timestamps. I have used combination of date function and calculation of the fields.
- B) Created a new sheet with a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years
- C) Created a pivot chart line graph that visualizes the new table.
+ * Created a new column named deadline, launch_at, and Date Ended Conversion columns use Unix timestamps. I have used combination of date function and calculation of the fields.
+ * Created a new sheet with a pivot table with a column of state, rows of Date Created Conversion, values based on the count of state, and filters based on parent category and Years
+ * Created a pivot chart line graph that visualizes the new table.
 
 
 
 * Questions:
  
  1) Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
-     a.	It list out all the funding projects such as films, games, and music related shows.
-     b.	The excel list shows how many have been success, go live, cancelled, or failed.
-     c.	It has backers count, pledged count, and goal information which can help analyst to do more research.
+     *	It list out all the funding projects such as films, games, and music related shows.
+     *	The excel list shows how many have been success, go live, cancelled, or failed.
+     *	It has backers count, pledged count, and goal information which can help analyst to do more research.
 
  2) What are some limitations of this dataset?
-     a. I think the category and sub-category could have expanded to more detail level.  I believe it is very limited to certain categories only.
-     b. I do not see backers information or fund sourcing information. It would be helpful to see where the money came from which will help for future projects or current project.
+     * I think the category and sub-category could have expanded to more detail level.  I believe it is very limited to certain categories only.
+     * I do not see backers information or fund sourcing information. It would be helpful to see where the money came from which will help for future projects or current project.
 
  3) What are some other possible tables and/or graphs that we could create?
-     a. We could create the percentage funded graphs group by state.
-     b. We could create a Launched_at (extract Month) graph group by state or categories.
+     * We could create the percentage funded graphs group by state.
+     * We could create a Launched_at (extract Month) graph group by state or categories.
 
 
 ## Bonus:
